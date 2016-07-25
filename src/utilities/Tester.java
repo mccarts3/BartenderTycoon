@@ -36,7 +36,14 @@ public class Tester {
 	}
 	
 	protected static MixedDrink createAMixedDrink() {
-		MixedDrink myDrink = new MixedDrink();
+		
+		/**
+		 *  String name
+		 *  float cost
+		 *  int size
+		 *  float abv
+		 */
+		MixedDrink myDrink = new MixedDrink("Sex on the beach", (float)5.00, 20, (float)12.0);
 		return myDrink;
 	}
 }
